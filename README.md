@@ -24,17 +24,6 @@ Create a separate class (or a new c# console app) that reads `server_logs.txt` a
 
 Each line follows this standard format: `timestamp=1678886400;ip=192.168.1.5;duration=120ms;path=/api/v1/user`
 
-### Evaluation Criteria
-
-We will evaluate your submission based on:
-
-- **Deep .NET Knowledge:** Efficient use of Streams, File I/O, and Data Structures.
-
-- **Concurrency:** How you handle thread safety (locking, concurrent collections, or partitioning).
-
-- **Code Quality:** Cleanliness, error handling, and separation of concerns.
-
-
 ### Deliverables
 
 - The C# source code for your solution (e.g. link to public GitHub repo).
@@ -42,7 +31,7 @@ We will evaluate your submission based on:
 
 - **Design Rationale:** A brief technical summary covering some of the following points:
 
-  - **Approach:** How did you tackle the concurrency and memory constraints?
+  - **Approach:** How did you approach the concurrency and memory constraints?
 
   - **Selection:** Why did you choose these specific data structures and threading models?
 
